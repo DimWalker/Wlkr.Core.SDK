@@ -338,3 +338,8 @@ ASALocalRun/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
+
+# vnote
+vx.json
+vx_notebook.json
+notebook.db
