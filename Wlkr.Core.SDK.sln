@@ -9,6 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wlkr.Core.ThreadUtils", "Wl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wlkr.Core.EFCore.SqlServer", "Wlkr.Core.EFCore\Wlkr.Core.EFCore.SqlServer\Wlkr.Core.EFCore.SqlServer.csproj", "{306CC2D4-ABC2-4398-8012-EFF356430AFC}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wlkr.Core.Logger", "Wlkr.Core.Logger\Wlkr.Core.Logger\Wlkr.Core.Logger.csproj", "{FB5CCDE4-D39E-47B3-A8E2-1FB67EDFCF8A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItem", "SolutionItem", "{CC9F861C-3946-4BBD-8A8F-3AE51F760CB9}"
+	ProjectSection(SolutionItems) = preProject
+		SolutionItem\Directory.Build.props = SolutionItem\Directory.Build.props
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +34,10 @@ Global
 		{306CC2D4-ABC2-4398-8012-EFF356430AFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{306CC2D4-ABC2-4398-8012-EFF356430AFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{306CC2D4-ABC2-4398-8012-EFF356430AFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB5CCDE4-D39E-47B3-A8E2-1FB67EDFCF8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB5CCDE4-D39E-47B3-A8E2-1FB67EDFCF8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB5CCDE4-D39E-47B3-A8E2-1FB67EDFCF8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB5CCDE4-D39E-47B3-A8E2-1FB67EDFCF8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

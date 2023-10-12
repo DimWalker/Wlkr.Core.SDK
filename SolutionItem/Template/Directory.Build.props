@@ -9,20 +9,19 @@
 	<PropertyGroup>
 		<MajorVersion>1</MajorVersion>
 		<MinorVersion>0</MinorVersion>
-		<BuildDate>2308</BuildDate>
-		<RevisionTime>0500</RevisionTime>
+		<BuildDate>2310</BuildDate>
+		<RevisionTime>1201</RevisionTime>
 		<!--<MinorVersion>$([System.DateTime]::Now.ToString("yy"))</MinorVersion>-->
 		<!--<BuildDate>$([System.DateTime]::Now.ToString("MMdd"))</BuildDate>-->
 		<!--<RevisionTime>$([System.DateTime]::Now.ToString("HHmm"))</RevisionTime>-->
 		<BuildNumber>$(MajorVersion).$(MinorVersion).$(BuildDate).$(RevisionTime)</BuildNumber>
 	</PropertyGroup>
-
 	<!-- Use the calculated version for the NuGet package -->
 	<PropertyGroup>
 		<VersionPrefix>$(BuildNumber)</VersionPrefix>
 		<Version>$(VersionPrefix)</Version>
 	</PropertyGroup>
-	
+
 	<PropertyGroup>
 		<!-- 设置 SolutionDir 属性为解决方案文件的绝对路径 -->
 		<SolutionDir>$(MSBuildThisFileDirectory)</SolutionDir>
