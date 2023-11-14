@@ -12,8 +12,10 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wlkr.Core.Logger", "Wlkr.Core.Logger\Wlkr.Core.Logger\Wlkr.Core.Logger.csproj", "{FB5CCDE4-D39E-47B3-A8E2-1FB67EDFCF8A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItem", "SolutionItem", "{CC9F861C-3946-4BBD-8A8F-3AE51F760CB9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Template", "Template", "{B815151D-7B47-4D55-897C-23B101DE564A}"
 	ProjectSection(SolutionItems) = preProject
-		SolutionItem\Directory.Build.props = SolutionItem\Directory.Build.props
+		SolutionItem\Template\Directory.Build.props = SolutionItem\Template\Directory.Build.props
 	EndProjectSection
 EndProject
 Global
@@ -41,6 +43,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B815151D-7B47-4D55-897C-23B101DE564A} = {CC9F861C-3946-4BBD-8A8F-3AE51F760CB9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {47519327-E563-493D-98E9-5E02E9AC0CAD}
